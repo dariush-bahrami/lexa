@@ -5,5 +5,6 @@ def pipe_skin_friction_coefficient(reynolds_number):
 def wall_skin_friction_coefficient(reynolds_number):
     return 0.058 * (reynolds_number ** -0.20)
 
+
 def turbulent_skin_friction_coefficient(reynolds_number):
-    return 0.027 * (reynolds_number ** (-1/7))
+    return 0.027 * (reynolds_number ** (-1 / 7))
